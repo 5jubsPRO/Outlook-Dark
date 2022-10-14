@@ -1,0 +1,181 @@
+/* ==UserStyle==
+@name        Outlook Dark Contrasted
+@namespace   BoffinBrain-5jubs
+@version     5.0.0
+@homepageURL https://github.com/5jubsPRO/Outlook-Dark
+@updateURL   https://raw.githubusercontent.com/5jubsPRO/Outlook-Dark/main/outlook-dark.user.css
+@license     CC0 - Public Domain
+@author      BoffinBrain-5jubs
+==/UserStyle== */
+/*! Outlook Dark v5.0.0 (2022-10-14) */
+/*! Repository: https://github.com/5jubsPRO/Outlook-Dark    */
+/*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
+@-moz-document domain("live.com") {
+    /* Hide the Microsoft Edge ad at the top */
+    .ZXaaK9lo4E9sH50KY3o0C,
+    ._2PxBL_S6KFCMTya8zm3aLF,
+    ._38q9kfVlcNA62oQUTbgvLT,
+    .cJ3F3.CCkr1 {
+        display: none !important;
+    }
+
+    /* Hide right panel containing ads and adblocker message */
+    ._2qPmszDwBfYpF7PO9Mn3KN,
+    ._2KxiN0IH0mUjw-Bw6WdAoB,
+    ._1K0cujP_EBzCd77bTesW1q,
+    ._1_ag99JsBHxI6S4FP5ayPv,
+    ._3_hHr3kfEhbNYRFM5YJxH9,
+    ._1fti_QgAzqGWPGlqh_FSvI,
+    .pBKjVBVDRKIDHWS0A95I,
+    .pBKjV,
+    .GssDD {
+        display: none !important;
+    }
+    
+    /* Stretch to cover the Hided Right Panel of The AD */
+    .q58ff {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      width: calc(100%);
+    }
+    
+    
+    /*Hide left panel Microsoft 365 Menu*/
+    ._1w0YJ8MbTODYnVLRQ-Wdsj,
+    .QVF0n {
+        display: none !important;
+    }
+    
+    /*Hide left panel Options Menu*/
+    .pTIix,
+	._1nMLWVebbegtsrngBPllM4 {
+        display: none !important;
+    }
+	
+	/*Hide Gmail-like Ad at first position of the messages*/
+	.UsCOa,
+	.UsCOa.pX_v1 {
+	  display: none !important;
+	}
+
+    /* Reduce the height of rows in the folders panel */
+    ._1429Ddb-M-DRKHKbjzLCpJ,
+    ._34_bqC0c1-8H3B0lGzop-9,
+    ._35ueaeH504acoUzNr1Jkhn,
+    ._1gDwEzTCS8wNdtzUGoZXox,
+    ._1IkR_CR6tswVlTQ99rZHPg,
+    ._1XmKWz3L5NcheRkx38wxTL,
+    ._2f5JzhIau1fYVnCdnF6jed,
+    .NQ_Mja19giwpo1gl18Gb {
+        height: 28px !important;
+        line-height:28px !important;
+    }
+
+    /* Hide Office 365 ad at bottom of message panel */
+    ._1x0NRQ4xIoC0ZaTr2yjnJc,
+    ._20YsfelFmugQWgNkXdkYaF,
+    ._3ULF2TRi4jsI2kVaIoieka,
+    ._1ZEdP0-JdMOVtjBb5ZcM6M,
+    ._2F6rWwLisyawGGg32JOcop,
+    ._28ithXDZzMqSN0YAG2rCVn,
+    .VPtFloqixpkkqJNcOv2T,
+    .VPtFl,
+    .Ogqyq {
+        display: none !important;
+    }
+
+    /* Shorter message rows (Version A) */
+    ._2koyR9j1Zq76lwCrfUtNzI,
+    .mXveB7UpZfP8v-UXpJOpz,
+    ._1hHMVrN7VV4d6Ylz-FsMuP._18LAllQi61d4a4XNAr9prg,
+    ._1hHMVrN7VV4d6Ylz-FsMuP._3BM_8P4ZFTWBjM1l53p2-M,
+    ._3AhvfFCmTCMeJ_TiEpVcdH {
+        padding-bottom: 6px !important;
+    }
+
+    /* Shorter message rows (Version B) */
+    ._1hHMVrN7VV4d6Ylz-FsMuP._3BM_8P4ZFTWBjM1l53p2-M .l9wTN_3i3tZgMhfxzv1F6,
+    ._1hHMVrN7VV4d6Ylz-FsMuP._3BM_8P4ZFTWBjM1l53p2-M ._3xzAt3r1xVGJJAEncehw9i {
+        padding-top: 0 !important;
+    }
+    ._1hHMVrN7VV4d6Ylz-FsMuP._3BM_8P4ZFTWBjM1l53p2-M .threeColConversationViewSenderImageOn  {
+        margin-top: -6px;
+    }
+  :root
+  {
+    --unknown: yellow;
+    --accent: #009dff;
+    --darkgray1: #000000;
+    --darkgray2: #222222;
+    --darkgray3: #000000;
+    --lightgray1: #a1a1a1;
+    --lightgray2: #848484;
+    --lightgray3: #686868;
+    --lightgray4: #444;
+    --black: var(--lightgray1) !important;
+    --blackTranslucent40: rgba(0, 0, 0, 0.4) !important;
+    --white: var(--darkgray1) !important;
+    --whiteTranslucent40: rgba(255, 255, 255, 0.4) !important;
+    --neutralDark: var(--lightgray1) !important;
+    --neutralPrimary: var(--lightgray1) !important;
+    --neutralPrimaryAlt: var(--lightgray1) !important;
+    --neutralSecondary: var(--lightgray2) !important;
+    --neutralTertiary: var(--lightgray3) !important;
+    --neutralTertiaryAlt: var(--lightgray3) !important;
+    --neutralQuaternary: var(--lightgray4) !important;
+    --neutralQuaternaryAlt: vat(--lightgray4) !important;
+    --neutralLight: var(--darkgray2) !important;
+    --neutralLighter: var(--darkgray1) !important;
+    --neutralLighterAlt: var(--darkgray1) !important;
+    --redDark: var(--unknown) !important;
+    --flaggedMessage: var(--darkgray2) !important;
+    --richUserContentBackground: var(--unknown) !important;
+    --composeNeutralBackground: var(--unknown) !important;
+    --composeNeutralLighterBackground: var(--unknown) !important;
+    --themeDarker: var(--accent) !important;
+    --themeDark: var(--lightgray1) !important;
+    --themeDarkAlt: var(--lightgray2) !important;
+    --themePrimary: var(--lightgray1) !important;
+    --themeSecondary: var(--unknown) !important;
+    --themeTertiary: var(--unknown) !important;
+    --themeLighter: var(--darkgray2) !important;
+    --themeLight: var(--darkgray2) !important;
+    --themeLighterAlt: var(--darkgray2) !important;
+    --headerBackground: var(--darkgray1) !important;
+    --headerBackgroundSearch: var(--darkgray1) !important;
+    --headerBrandText: var(--lightgray1) !important;
+    --headerTextIcons: var(--lightgray1) !important;
+    --headerSearchBoxBackground: var(--darkgray3) !important;
+    --headerSearchBoxIcon: var(--lightgray1) !important;
+    --headerSearchPlaceholderText: var(--lightgray1) !important;
+    --headerSearchButtonBackground: var(--darkgray3) !important;
+    --headerSearchButtonBackgroundHover: var(--lightgray1) !important;
+    --headerSearchButtonIcon: var(--lightgray1) !important;
+    --headerSearchFilters: var(--lightgray1) !important;
+    --headerSearchFiltersHover: var(--accent) !important;
+    --headerButtonsBackground: var(--darkgray1) !important;
+    --headerButtonsBackgroundHover: var(--darkgray2) !important;
+    --headerButtonsBackgroundSearch: var(--darkgray1) !important;
+    --headerButtonsBackgroundSearchHover: var(--darkgray1) !important;
+    --headerBadgeBackground: var(--unknown) !important;
+    --headerBadgeText: var(--unknown) !important;
+    --headerSearchIcon: var(--unknown) !important;
+    --searchBoxBackground: var(--unknown) !important;
+  }
+/* Cor da NavBar */
+	.o365cs-base .o365sx-button {
+		color: #fff;
+		background-color: #000;
+	}	
+	.o365cs-base .o365sx-appName, .o365cs-base .o365sx-appName:visited {
+	  color: #fff;
+	  background-color: #000;
+	}
+	.o365sx-navbar {
+	  background-color: #000;
+	  background-position: left top;
+	  background-image: none;
+	}
+
+}
