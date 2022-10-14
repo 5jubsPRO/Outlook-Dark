@@ -1,10 +1,10 @@
 # Outlook Dark Contrasted
 
-Outlook Dark Contrasted is a simple dark style for WhatsApp Web.
+Outlook Dark Contrasted is a simple dark style for Outlook.com.
 
 ## Notes
 
-This is a based in the original Style "Outlook.com Tidy" by [BoffinBrain](https://www.deviantart.com/boffinbrain), which can be accessed here: [WhatsApp-Dark Official Repo](https://www.deviantart.com/boffinbrain/art/Outlook-com-Tidy-868065885).
+This is a based in the original Style "Outlook.com Tidy" by [BoffinBrain](https://www.deviantart.com/boffinbrain), which can be accessed here: [Outlook.com Tidy Official Repo](https://www.deviantart.com/boffinbrain/art/Outlook-com-Tidy-868065885).
 
 ## Status
 
