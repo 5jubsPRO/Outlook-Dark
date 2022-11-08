@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        Outlook Dark Contrasted
 @namespace   BoffinBrain-5jubs
-@version     5.0.0
+@version     5.0.1
 @homepageURL https://github.com/5jubsPRO/Outlook-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/Outlook-Dark/main/outlook-dark.user.css
 @license     CC0 - Public Domain
 @author      BoffinBrain-5jubs
 ==/UserStyle== */
-/*! Outlook Dark v5.0.0 (2022-10-14) */
+/*! Outlook Dark v5.0.1 (2022-11-07) */
 /*! Repository: https://github.com/5jubsPRO/Outlook-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("live.com") {
@@ -113,6 +113,7 @@
     --lightgray2: #848484;
     --lightgray3: #686868;
     --lightgray4: #444;
+	--realBlack: #000;
     --black: var(--lightgray1) !important;
     --blackTranslucent40: rgba(0, 0, 0, 0.4) !important;
     --white: var(--darkgray1) !important;
@@ -120,6 +121,7 @@
     --neutralDark: var(--lightgray1) !important;
     --neutralPrimary: var(--lightgray1) !important;
     --neutralPrimaryAlt: var(--lightgray1) !important;
+	--neutralPrimarySurface: #000;
     --neutralSecondary: var(--lightgray2) !important;
     --neutralTertiary: var(--lightgray3) !important;
     --neutralTertiaryAlt: var(--lightgray3) !important;
