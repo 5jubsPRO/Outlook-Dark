@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        Outlook Dark Contrasted
 @namespace   BoffinBrain-5jubs
-@version     5.0.5
+@version     5.0.6
 @homepageURL https://github.com/5jubsPRO/Outlook-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/Outlook-Dark/main/outlook-dark.user.css
 @license     CC0 - Public Domain
 @author      BoffinBrain-5jubs
 ==/UserStyle== */
-/*! Outlook Dark v5.0.5 (2023-04-17) */
+/*! Outlook Dark v5.0.6 (2023-05-09) */
 /*! Repository: https://github.com/5jubsPRO/Outlook-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("live.com") {
@@ -16,7 +16,7 @@
     ._2PxBL_S6KFCMTya8zm3aLF,
     ._38q9kfVlcNA62oQUTbgvLT,
     .cJ3F3.CCkr1,
-	.H6BPk 
+	.H6BPk
 	{
         display: none !important;
     }
@@ -57,6 +57,7 @@
     }
 	
 	/*Hide Gmail-like Ad at first position of the messages*/
+	.Ogt7j,
 	.UsCOa,
 	.UsCOa.pX_v1 {
 	  display: none !important;
