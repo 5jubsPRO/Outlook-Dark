@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        Outlook Dark Contrasted
 @namespace   BoffinBrain-5jubs
-@version     5.0.6
+@version     5.0.7
 @homepageURL https://github.com/5jubsPRO/Outlook-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/Outlook-Dark/main/outlook-dark.user.css
 @license     CC0 - Public Domain
 @author      BoffinBrain-5jubs
 ==/UserStyle== */
-/*! Outlook Dark v5.0.6 (2023-05-09) */
+/*! Outlook Dark v5.0.7 (2023-12-18) */
 /*! Repository: https://github.com/5jubsPRO/Outlook-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("live.com") {
@@ -45,7 +45,8 @@
     
     /*Hide left panel Microsoft 365 Menu*/
     ._1w0YJ8MbTODYnVLRQ-Wdsj,
-    .QVF0n {
+    .IB8Bw,
+	.QVF0n {
         display: none !important;
     }
     
@@ -108,7 +109,7 @@
     }
   :root
 	{
-		--unknown: yellow;
+		--unknown: #000;
 		--accent: #009dff;
 		--darkgray1: #000000;
 		--darkgray2: #000000;
@@ -182,7 +183,26 @@
 	.o365sx-navbar {
 		background-color: #000;
 		background-position: left top;
+		background-repeat-x: repeat;
 		background-image: none;
 	}
+	
+	/*Hide left panel Microsoft 365 Menu - ENFORCE*/
+	.o365cs-base .o365sx-waffle {
+        display: none !important;
+    }
+	
+	/* POSSIBLE ERRORS WITH THESE \/\/ */
+	.ieRo\/OqPYB7kffRFKx2c9w\=\= {
+        display: none !important;
+    }
+	
+	.clgiLVKPzugZZns0LiPTqw\=\= {
+        display: none !important;
+    }
+	
+	.Bh46b1rd8BrU4zolL9RzUg\=\= {
+        display: none !important;
+    }
 
 }
