@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        Outlook Dark Contrasted
 @namespace   BoffinBrain-5jubs
-@version     5.0.7
+@version     5.0.8
 @homepageURL https://github.com/5jubsPRO/Outlook-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/Outlook-Dark/main/outlook-dark.user.css
 @license     CC0 - Public Domain
 @author      BoffinBrain-5jubs
 ==/UserStyle== */
-/*! Outlook Dark v5.0.7 (2023-12-18) */
+/*! Outlook Dark v5.0.8 (2024-06-06) */
 /*! Repository: https://github.com/5jubsPRO/Outlook-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("live.com") {
@@ -46,7 +46,8 @@
     /*Hide left panel Microsoft 365 Menu*/
     ._1w0YJ8MbTODYnVLRQ-Wdsj,
     .IB8Bw,
-	.QVF0n {
+	.QVF0n,
+	.___1ybjv6f	{
         display: none !important;
     }
     
@@ -60,7 +61,8 @@
 	/*Hide Gmail-like Ad at first position of the messages*/
 	.Ogt7j,
 	.UsCOa,
-	.UsCOa.pX_v1 {
+	.UsCOa.pX_v1,
+	.___17j5stw {
 	  display: none !important;
 	}
 
